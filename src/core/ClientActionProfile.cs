@@ -1,24 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BankSimulator.core;
+﻿namespace BankSimulator.core;
 public class ClientActionProfile
 {
     public string Action { get; }
     public int MinCount { get; }
     public int MaxCount { get; }
-    public double AvgAmount { get; }
-    public double StdAmount { get; }
-
+    public double AverageAmount { get; set; }
+    public double StdAmount { get; set; }
+    public int Freq { get; set; }
     public ClientActionProfile(string action, int minCount, int maxCount, double avgAmount, double stdAmount)
     {
         Action = action;
         MinCount = minCount;
         MaxCount = maxCount;
-        AvgAmount = avgAmount;
+        AverageAmount = avgAmount;
         StdAmount = stdAmount;
     }
 }

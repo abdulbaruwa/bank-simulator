@@ -33,7 +33,8 @@ public class IdentityFactory
 
     public ClientIdentity NextPerson()
     {
-        var person = fairy.Person;
+        var person = new Faker().Person;
+        
 
         return new ClientIdentity(
             GetNextCreditCard(),

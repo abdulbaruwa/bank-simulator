@@ -12,7 +12,7 @@ public class ClientIdentity : Identity
     [Name("phoneNumber")]
     public string PhoneNumber { get; }
 
-    protected ClientIdentity(string id, string name, string email, string ssn, string phoneNumber)
+    public ClientIdentity(string id, string name, string email, string ssn, string phoneNumber)
         : base(id, name)
     {
         Email = email;

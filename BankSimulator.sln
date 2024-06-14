@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSimulator", "src\BankSi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8B17212-2045-4D2B-A838-380674203CE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSimulator.Tests", "tests\BankSimulator.Tests\BankSimulator.Tests.csproj", "{007FF228-C264-4D31-8E93-829ACF70A9BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC1C3489-647A-41B0-BB18-3FB826B4059A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{8EC0D8D1-FCDE-49C4-AF8B-975F839F7E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC0D8D1-FCDE-49C4-AF8B-975F839F7E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC0D8D1-FCDE-49C4-AF8B-975F839F7E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007FF228-C264-4D31-8E93-829ACF70A9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007FF228-C264-4D31-8E93-829ACF70A9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007FF228-C264-4D31-8E93-829ACF70A9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007FF228-C264-4D31-8E93-829ACF70A9BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8EC0D8D1-FCDE-49C4-AF8B-975F839F7E4D} = {A8B17212-2045-4D2B-A838-380674203CE7}
+		{007FF228-C264-4D31-8E93-829ACF70A9BB} = {DC1C3489-647A-41B0-BB18-3FB826B4059A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EA748F3-15B0-456D-81ED-E7C71E3FDB46}
